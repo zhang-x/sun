@@ -1,0 +1,135 @@
+@charset "UTF-8";
+.box{
+  width: 326px;
+  height: 402px;
+  background-color: rgba(0,0,0,0.5);
+  margin: 100px auto;
+  .content{
+    width: 283px;
+    height:278px;
+    margin: 0 20px 95px 23px;
+    padding-top: 30px;
+    .title{
+      font-size: 22px;
+      font-weight: bold;;
+      color: #fff;
+      margin-bottom: 22px;
+    }
+    .price{
+      position: relative;
+      p{
+        font-size: 14px;
+        color: #fff;
+        margin-bottom: 6px;
+        span:nth-of-type(1){
+          float: left;
+        }
+        span:nth-of-type(2){
+          float: right;
+        }
+      }
+      .input{
+        width: 100%;
+        height: 44px;
+        background-color: #fff;
+        margin-bottom:10px;
+        .left{
+          width:237px;
+          height: 44px;
+          border-right: 1px solid #ccc;
+          position: relative;
+          input{
+            width:237px;
+            height: 44px;
+            font-size: 14px;
+            color: #808080;
+          }
+          span{
+            font-size: 14px;
+            color: #808080;
+            position: absolute;
+            right: 1px;
+            top:12px;
+          }
+        }
+        .right{
+          width: 45px;
+          height: 44px;
+          position: relative;
+          cursor: pointer;
+          input{
+            width: 45px;
+            height: 44px;
+            cursor: pointer;
+
+          }
+          span{
+            font-size: 22px;
+            position: absolute;
+            top:50%;
+            left:50%;
+            margin-left: -6.29px;
+            margin-top: -11px;
+            color: #808080;
+          }
+          .span1{
+            display: block;
+          }
+          .span2{
+            display: none;
+          }
+          .span3{
+            display: block;
+          }
+          .span4{
+            display: none;
+          }
+        }
+      }
+      ul{
+        width: 283px;
+        border-top: 1px solid #ccc;
+        background-color: #fff;
+        position: absolute;
+        top: 69px;
+        left:0;
+        z-index: 111;
+        li{
+          width: 273px;
+          background-color: #fff;
+          padding: 5px;
+        }
+        li:hover{
+          background-color: #C6D6E7;
+          cursor: pointer;
+        }
+      }
+      .ul1{
+        display: none;
+      }
+      .ul2{
+        display: none;
+      }
+    }
+    .search{
+      margin-top: 18px;
+      width: 283px;
+      height:42px;
+      background-color: #0094ef;
+      input{
+        width: 283px;
+        height:42px;
+        background-color: #0094ef;
+        font-size: 16px;
+        color: #fff;
+      }
+    }
+    .footer{
+      width: 283px;
+      text-align: center;
+      font-size: 12px;
+      color: #cecece;
+      margin-top: 21px;
+    }
+  }
+}
